@@ -1,0 +1,54 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom-width: 1px;
+  border-bottom-color: #363131;
+  border-bottom-style: solid;
+}
+
+.Profile {
+  width: 50px;
+  border-radius: 25px;
+}
+
+.Profile:hover {
+  opacity: 0.40;
+  cursor: pointer;
+}
+
+.Left {
+  display: flex;
+  align-items: center;
+}
+
+.Right {
+  display: flex;
+  align-items: center;
+}
+
+.SearchBar {
+  font-family: 'Roboto', sans-serif;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 30px;
+  border-style: none;
+}
+
+.SearchBar::placeholder {
+  font-family: 'Roboto', sans-serif;
+}
+
+.Logo {
+  width: 200px;
+  margin-top: 3px;
+}
+
+.LogoDiv {
+
+}
+
+.Middle {
+margin-right: 120px;
+}

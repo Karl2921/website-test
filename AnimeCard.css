@@ -1,0 +1,47 @@
+.AnimeCard {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  justify-content: center;
+  justify-items: center;
+  row-gap: 50px;
+
+}
+
+img {
+  width: 200px;
+}
+
+.Anime:hover {
+  opacity: 20%;
+  cursor: pointer;
+}
+
+.AnimeContainer1 {
+  position: relative;
+}
+
+.AnimeScore1 {
+  position: absolute;
+  background-color: #000000;
+  color: rgba(255, 255, 255, 0.76);
+  top: 0;
+  left: 0;
+  font-family: 'Roboto', sans-serif;
+  padding: 5px;
+  border-radius: 60px;
+  font-size: 17px;
+}
+
+.AnimeEpisode1 {
+  position: absolute;
+  background-color: #180c0c;
+  color: rgba(255, 255, 255, 0.76);
+  bottom: 5px;
+  right: 3px;
+  font-family: 'Roboto', sans-serif;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
